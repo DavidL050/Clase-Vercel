@@ -189,3 +189,17 @@ body {
 .forgot-password:hover {
     text-decoration: underline;
 }
+.redirect-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Color de fondo */
+    color: white; /* Color del texto */
+    text-align: center;
+    text-decoration: none; /* Sin subrayado */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+.redirect-btn:hover {
+    background-color: #45a049; /* Color de fondo al pasar el mouse */
+}
